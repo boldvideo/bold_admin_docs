@@ -6,46 +6,51 @@ sidebar_position: 2
 
 Instead of manually uploading the recordings of your Google Meetings, you can now use our Google Drive Integration to import recordings directly.
 
-To get started you need to first authenticate with a Google Account. To that, open the [settings page](https://app.boldvideo.io/settings) in your Bold Admin panel:
+To get started you need to first authenticate with a Google Account. To do that, open the [settings page](https://app.boldvideo.io/settings) in your Bold Admin panel:
 
 ![Authenticate with Google](/img/google-screen1.png)
 
-Click the "Connect"-Button next to the Google Meet Logo and, if prompted, enter the credentials to your Google-Account. 
+Click the "Sign in with Google"-Button next to the Google Drive Logo and, if prompted, enter the credentials to your Google-Account. 
 
 ![Authenticate with Google](/img/google-screen2.png)
 
-Once connected, you should see your Google email, first- and lastname and Photo in your Bold Settings Page:
+Once connected, you should see your Google email, first- and lastname as well as your profile photo in your Bold Settings Page:
 
 ![Connected to Google](/img/google-screen3.png)
 
-You can now head back to your [video library](https://app.boldvideo.io/videos) where you should see a new button in the top right corner "Google Meet Import".
+You can now head back to your [video library](https://app.boldvideo.io/videos) where you should see a new button in the top right corner "Google Drive Import".
 
-If you activate the checkbox "Zoom synchronisation", Bold will import every upcoming Zoom Meeting that is being recorded to the Zoom Cloud into your video library.
+![Import from Google Drive](/img/google-screen4.png)
 
-Once you finish a Zoom Meeting and the recording has stopped, you'll see a notification at the top of [your video library](https://app.boldvideo.io/videos). When the processing on Zoom's side is done, the video will be automatically added to your video library.
+Click that button to open the Google Meet Recordings folder of the connected Google Drive Account:
 
-![Zoom notification](/img/zoom-screen3.png)
+![Google Meet Recordings](/img/google-screen5.png)
+
+Once you click the "Import" Button on video, it gets imported right away into your video library. Once import is completed it gets re-encoded, optimized and transcribed. This process can take up to a few minutes.
+
+![Google Meet Recordings](/img/google-screen6.png)
 
 :::info
-All imported recordings will have the status "unlisted" so that they don't accidentally show up in any of your connected frontends or clients.
+The window only shows you the contents of the "Meet Recordings" folder inside the Google Drive of the connected account, which is the default storage folder for Google Meet.
 :::
+
 
 ## How to uninstall
 
-To disconnect your Zoom Account from Bold, simply click the "Remove"-Button near the Zoom Integration section on your [settings page](https://app.boldvideo.io/settings).
+To disconnect your Google Dive Account from Bold, simply click the "Remove"-Button near the Google Drive Integration section on your [settings page](https://app.boldvideo.io/settings).
 
-![Disconnect Zoom](/img/zoom-screen4.png)
+![Disconnect Google](/img/google-screen7.png)
 
 ## FAQ
 
 <details>
-  <summary>Can I also import past recordings from Zoom Cloud?</summary>
+  <summary>Will the recordings be transcribed?</summary>
   <div>
-    Not at this point. A recordings browser to import past meetings is currently being developed and will be released in the coming weeks.
+    Yes, all videos that are added to your video library are being transcribed.
   </div>
 </details>
 <details>
-  <summary>Does Bold re-encode the Zoom Recordings?</summary>
+  <summary>Does Bold re-encode the Google Meet Recordings?</summary>
   <div>
     Yes, all imported videos are encoded into the same Adaptive Bitrate HLS format, to ensure always the best experience and the right video size for a viewer's device and connection speed.
   </div>
